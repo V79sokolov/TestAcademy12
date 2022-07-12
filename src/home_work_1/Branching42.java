@@ -2,9 +2,9 @@ package home_work_1;
 
 import java.util.Scanner;
 
-public class Program2 {
+public class Branching2 {
     public static void main(String[] args) {
-        //4.3
+        //4.2
         Scanner number1 = new Scanner(System.in);//создаем объект в классе Scanner и в параметрах класса  Scanner создаем входной поток System.in
         System.out.print("Input number1: ");
         int resalt1 = number1.nextInt(); //инициализируем введенное значение для первого числа

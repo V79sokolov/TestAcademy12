@@ -1,0 +1,22 @@
+package home_work_1;
+import java.util.Scanner;// импортируем класс Scanner так как этот класс заранее не импортирован из пакета java.util в отличие от того же String
+public class Branching3 {
+    public static void main(String[] args) {
+        //4.1
+        Scanner number = new Scanner(System.in);//создаем объект в классе Scanner и в параметрах класса  Scanner создаем входной поток System.in
+        System.out.print("Input number: ");
+        int resalt = number.nextInt(); //инициализируем введенное значение для первого числа
+
+        System.out.println("Input number " + resalt);
+
+        if (resalt % 2 == 0) {
+            System.out.println("Данное число " + resalt + " является четным");
+        } else {
+            System.out.println("Данное число " + resalt + " не является четным");
+        }
+    }
+
+}
+
+
+

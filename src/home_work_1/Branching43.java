@@ -1,6 +1,8 @@
 package home_work_1;
-import java.util.Scanner;// импортируем класс Scanner так как этот класс заранее не импортирован из пакета java.util в отличие от того же String
-public class Program {
+
+import java.util.Scanner;
+
+public class Branching1 {
     public static void main(String[] args) {
         //4.3
         Scanner number1 = new Scanner(System.in);//создаем объект в классе Scanner и в параметрах класса  Scanner создаем входной поток System.in
