@@ -1,6 +1,6 @@
 package home_work_1;
 
-public class Priority {
+public class Practice2 {
     public static void main(String[] args) {
         int a=5;
         int b=2;

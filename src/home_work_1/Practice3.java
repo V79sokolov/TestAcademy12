@@ -1,6 +1,6 @@
 package home_work_1;
 
-public class Test {
+public class Practice3 {
     public static void main(String[] args) {
         // 3.1 нахождение корня из числа
         int x=9;

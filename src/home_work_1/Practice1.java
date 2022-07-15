@@ -2,7 +2,7 @@ package home_work_1;
 
 import java.util.DoubleSummaryStatistics;
 // Побитовые операции
-public class Practice {
+public class Practice1 {
     public static void main(String[] args) {
         int a=27;// в двоичной системе это 00011011 //объявлением переменную а и инциализируем ей значение 27
         int b=44;// в двоичной системе это 00101100 //объявлением переменную в и инциализируем ей значение 44
