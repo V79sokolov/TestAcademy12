@@ -1,14 +1,14 @@
 package home_work_2.loops;
 
-import java.util.Scanner;
+import java.util.Scanner; // импорт класса Scanner
 
 public class loops12 {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in); // создаём объект класса Scanner
+        Scanner input = new Scanner(System.in); // создаём новый объект класса Scanner
         System.out.println("Введите  целое число");
-        int num = input.nextInt();
+        int num = input.nextInt();//получение значения input из консоли  иприсваевание этого значения переменной num тип int
 
             System.out.println("Введено не число");
         int res = 1;

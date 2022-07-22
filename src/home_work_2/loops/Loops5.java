@@ -14,7 +14,7 @@ public class Loops5<maxnumber> {
             Scanner console = new Scanner(System.in);
             System.out.println("Введите число");
             String num = console.nextLine();
-            int max, min, t = Math.abs(Integer.parseInt(num)), maxCount = 0, minCount = 0;
+            int max, min, t = Math.abs(Integer.parseInt(num)), maxCount = 0, minCount = 0; //Integer.parseInt(num) преобразование строки в число. Math.abs - мы получаем модуль числа
             max = min = t % 10;
             while (t > 0) {
                 if (max < t % 10) max = t % 10;
@@ -32,7 +32,7 @@ public class Loops5<maxnumber> {
     public static int res2(){
     int res2 = 0;
     int[] array = new int[200];
-    Random x = new Random();
+    Random x = new Random();// для получения массива из рандомных чисел
         for (int i = 0; i < 200; i++) {
         array[i] = x.nextInt();
         if (array[i] % 2 == 0) {
@@ -48,7 +48,7 @@ public class Loops5<maxnumber> {
 
      public static String   res3() {
          int[] array = new int[200];
-         Random x = new Random();
+         Random x = new Random();// для заполнения массива элементами будем использвать рандомные числа х
          for (int i = 0; i < 200; i++) {
              array[i] = x.nextInt();
              int n = 0;
@@ -85,26 +85,25 @@ public class Loops5<maxnumber> {
                  firstnumber = secondnumber;
                  secondnumber = res4;
              }
-             return String.valueOf(res4);
+             return String.valueOf(res4); //  valueOf(res4) для преобразования базового типа данных в строку
              //      System.out.println("Ряд Фибоначи:"+String.valueOf(res4));
-         }
+       }
 
 
 
          Scanner console = new Scanner(System.in);
          String res5;
-         System.out.println("Максимум диапозона. Введите число");
+ //       System.out.println("Максимум диапозона. Введите число");
          int maxnumber = console.nextInt();
-         System.out.println("Введите шаг");
+ //        System.out.println("Введите шаг");
          int step = console.nextInt();
          int min;
          int count = min;
-         while (count < maxnumber) {
-             count += step;
-             res5 = "" + count;
-             return res5;
-         }
-     }
+ //        while (count < maxnumber) {
+//             count += step;
+ //            res5 = "" + count;
+ //            return res5;
+ //        }
 
 
 

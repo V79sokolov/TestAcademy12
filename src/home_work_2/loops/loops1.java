@@ -1,13 +1,14 @@
 package home_work_2.loops;
 
-import java.util.Scanner;
+import java.util.Scanner; // импорт класса Scanner
 
 public class loops1 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in); //создание нового объекта in
         System.out.println("Введите число");
-        int num = in.nextInt();
+        int num = in.nextInt();  // получение значения in из консоли  иприсваевание этого значения переменной num тип int
         int result = 1;
+
         for (int i = 1; i <= num; i++) {
             result = result * i;
                 System.out.print(i);
