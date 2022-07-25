@@ -5,63 +5,68 @@ public class CalculatorWithOperator {
      * метод сложение
      * @return озвращает результат сложения чисел
      */
-    double addition(double a1, double b1) {
-        double result1 = a1 + b1;
-        return result1;
+    public double addition(double a1, double b1) {
+        double resultAddition = a1 + b1;
+        return resultAddition;
     }
 
         /**
          * метод деления
-         * @return озвращает результат делкния чисел
+         * @return озвращает результат деления чисел
          */
-        double division(double a2, double b2){
-            double result2 = a2 / b2;
-            return result2;
-        }
+    public double division(double a2, double b2){
+        double resultDivision =a2/b2;
+        return resultDivision;
+    }
 
             /**
              * метод вычитания
-             * @return озвращает результат делeния чисел
+             * @return возвращает результат вычитания чисел
              */
-            double subtraction(double a3, double b3){
-                double result3=a3-b3;
-                return result3;
+    public double subtraction(double a3, double b3){
+        double resultSubtraction=a3-b3;
+        return resultSubtraction;
 
-            }
+    }
 
     /**
      * метод умножения
      * @return озвращает результат умножения чисел
      */
-        double multiplication(double a4, double b4) {
-            double result4=a4*b4;
-            return result4;}
+    public double multiplication(double a4, double b4) {
+            double resultMultiplication=a4*b4;
+            return resultMultiplication;}
 
 
             /**
              * метод возведенеия в степень числа
              * @return озвращает результат возведенеия в степень
              */
-            double degree(double a5, double b5) {
-                double result5=Math.pow(a5,b5);
-                return result5;
-        }
-
+    public double degree(double a5, double b5) {
+        double resultDegree = a5 *a5;
+        return resultDegree;
+    }
+//          double result5=Math.pow(a5,b5);
     /**
      * метод получения модуля числа
      * @return озвращает результат модуля числа
      */
-    double module(double a6) {
-        double result6 = Math.abs(a6);
-        return result6;
+    public double module(double a6) {
+        double resultModule ;
+        double a = 0;
+        if (a6<0) resultModule = -a;
+        else {
+            resultModule = a;
+        }
+            return resultModule;
     }
 
     /**
      * метод получения квадратного корня из числа
      * @return озвращает результат
      */
-    double squareNumber(double a7) {
-        double result7 = Math.sqrt(a7);
-        return result7;
+    public double squareNumber(double a7) {
+        double resultSquareNumber=Math.sqrt(a7);
+        return resultSquareNumber;
+        }
     }
-}
